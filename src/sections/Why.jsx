@@ -5,7 +5,7 @@ import option from '../assets/option.png'
 
 const Why = () => {
     return (
-        <div className="bg-[#156782] mt-52">
+        <div id="why" className="bg-[#156782] mt-52">
             <div className="mx-auto block w-full">
                 <h2 className="font-montserrat font-bold text-5xl text-[#f1f0e4] py-10 text-center" >Pourquoi Nous <span className="text-[#ff9a23]">Choisir?</span>  </h2>
                 <div className="flex justify-evenly py-20">
