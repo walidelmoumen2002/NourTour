@@ -4,9 +4,9 @@ import whatsappLogo from '../assets/whatsappsvg.svg'
 
 const About = () => {
     return (
-        <div id="about" className="flex items-center justify-around container mx-auto mt-40">
-            <img src={chauffeur} alt="chauffeur" className="w-5/12" />
-            <div className="w-[42%] p-10 bg-[#f1f0e4] h-96 rounded-xl flex flex-col justify-center">
+        <div id="about" className="flex items-center justify-around md:container mx-auto mt-40">
+            <img src={chauffeur} alt="chauffeur" className="md:w-5/12 hidden md:block" />
+            <div className="md:w-[42%] px-6 py-20 md:p-10 bg-[#f1f0e4] md:h-96 rounded-xl flex flex-col justify-center">
                 <h3 className="font-montserrat font-bold text-5xl text-[#156782] mb-10">À propos</h3>
                 <p className="font-roboto font-light text-[#156782] text-xl leading-7 mb-4" >
                     Nour Tour Tourist Transport situé à Casablanca offre un transfert pratique vers toutes les villes marocaines, Avec Nour Tour réservée un taxi privé aeroport Casablanca vers centre ville et toutes les destinations au Maroc.

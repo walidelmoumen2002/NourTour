@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import vito from '../assets/vito.png'
 import whatsappLogo from '../assets/whatsappsvg.svg'
 import email from '../assets/email.svg'
+import { Link } from 'react-scroll'
 
 const Hero = () => {
     return (
@@ -15,11 +16,11 @@ const Hero = () => {
                                 <br />
                                 <span className="text-[#ff9a23]" >Casablanca</span>
                             </h1>
-                            <p className="text-lg text-gray-600 sm:mt-8 font-roboto">La mission de Nour Tour est le tourisme et le transport dans diverses villes marocaines avec des voyages de haute qualité</p>
+                            <p className="text-base p-4 md:p-0 md:text-lg text-gray-600 sm:mt-8 font-roboto">La mission de Nour Tour est le tourisme et le transport dans diverses villes marocaines avec des voyages de haute qualité</p>
                         </div>
 
-                        <div className="flex items-center justify-center mt-6 lg:justify-start sm:space-x-8">
-                            <a href='https://api.whatsapp.com/send/?phone=%2B212666941037&text&type=phone_number&app_absent=0' target='blank' className="flex items-center justify-around px-5 py-2 text-base font-bold leading-7 text-white transition-all duration-200 bg-[#ff9a23] border border-transparent rounded-xl hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 w-42" >
+                        <div className="flex flex-col md:flex-row items-center justify-center mt-6 lg:justify-start sm:space-x-8 w-1/2 mx-auto md:w-3/4 md:mx-0">
+                            <a href='https://api.whatsapp.com/send/?phone=%2B212666941037&text&type=phone_number&app_absent=0' target='blank' className="flex items-center justify-around px-5 py-2 text-center text-base font-bold leading-7 text-white transition-all duration-200 bg-[#ff9a23] border border-transparent rounded-xl hover:bg-gray-600 w-full md:w-46" >
                                 Whatsapp
                                 <img src={whatsappLogo} alt="whatsapp logo" className="ml-3 w-8" />
                             </a>
@@ -34,15 +35,20 @@ const Hero = () => {
                                 </svg>
                             </div>
 
-                            <button className="flex items-center justify-around px-5 py-2 text-base font-bold leading-7 text-white transition-all duration-200 bg-[#156782] border border-transparent rounded-xl hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 w-42" >
+                            <Link
+                                to="contact"
+                                smooth={true}
+                                duration={500}
+                                className="flex items-center justify-around px-5 py-2 text-base font-bold leading-7 text-white transition-all duration-200 bg-[#156782] border border-transparent rounded-xl hover:bg-gray-600 font-roboto w-full mt-4 md:mt-0 md:w-46 cursor-pointer"
+                            >
                                 Email
                                 <img src={email} alt="whatsapp logo" className="ml-3 w-8" />
-                            </button>
+                            </Link>
                         </div>
                     </div>
 
                     <div>
-                        <img className="w-5/6" src={vito} alt="image vito" />
+                        <img className="w-5/6 mx-auto" src={vito} alt="image vito" />
                     </div>
                 </div>
             </div>
