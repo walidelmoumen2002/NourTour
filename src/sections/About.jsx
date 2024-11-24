@@ -4,7 +4,7 @@ import whatsappLogo from '../assets/whatsappsvg.svg'
 
 const About = () => {
     return (
-        <div id="about" className="flex items-center justify-around md:container mx-auto mt-40">
+        <div id="about" className="flex items-center justify-around md:container mx-auto mt-20 md:mt-40">
             <img src={chauffeur} alt="chauffeur" className="md:w-5/12 hidden md:block" />
             <div className="md:w-[42%] px-6 py-20 md:p-10 bg-[#f1f0e4] md:h-96 rounded-xl flex flex-col justify-center">
                 <h3 className="font-montserrat font-bold text-5xl text-[#156782] mb-10">À propos</h3>
