@@ -63,11 +63,11 @@ const Contact = () => {
             </div>
             <div className='w-full flex flex-col md:flex-row justify-end pt-20 px-10 text-md md:px-20 md:text-xl font-montserrat text-[#f1f0e4]'>
                 <div className='mr-10'>
-                    <p className='mb-4'>Casablanca, Maroc</p>
-                    <p>Téléphone: +212 666-941037</p>
+                    <p className='mb-4'>Rabat-Salé, Maroc</p>
+                    <p>Téléphone: +212 638-683227</p>
                 </div>
                 <div>
-                    <p>Email: Nourtour.ma@gmail.com</p>
+                    <p>Email: noureddinelassaoui81@gmail.com</p>
                     <div className='flex justify-start mt-6 md:justify-center w-full md:mt-4'>
 
                         <a href='https://www.instagram.com/nour.tour777/' className='mr-5' target='blank'>
