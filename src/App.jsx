@@ -7,6 +7,8 @@ import Why from './sections/Why'
 import Citation from './sections/Citation'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
+import Destinations from './sections/Destinations'
+import Comments from './sections/Comments'
 
 function App() {
 
@@ -15,9 +17,15 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Cars />
-      <Why />
+      <div className='bg-[#f1f0e4] md:mt-24'>
+        <Comments />
+        <Cars />
+      </div>
       <Citation />
+      <div className='bg-[#156782] mt-24'>
+        <Why />
+        <Destinations />
+      </div>
       <Contact />
       <Footer />
     </div>

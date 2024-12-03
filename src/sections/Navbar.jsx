@@ -1,17 +1,18 @@
 import React, { useState } from 'react'
 import logo from '../assets/logonour.png'
 import { Link } from "react-scroll";
+import { IoIosClose } from "react-icons/io";
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return (
-        <header className="font-montserrat bg-[#ff9a23]">
-            <div className="container px-4 mx-auto sm:px-6 lg:px-8">
+        <header className="font-montserrat bg-[#156782]">
+            <div className="container py-6 px-4 mx-auto sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between">
                     <div className="flex-shrink-0">
                         <a href="#" title="" className="flex rounded outline-none ">
-                            <img className="w-auto h-32" src={logo} alt="" />
+                            <img className="w-auto h-24" src={logo} alt="" />
                         </a>
                     </div>
 
@@ -20,32 +21,36 @@ const Navbar = () => {
                             to="about"
                             smooth={true}
                             duration={500}
-                            className="text-base font-medium text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2">
-                            À propos
+                            className="text-base font-medium text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 cursor-pointer">
+                            About Us
                         </Link>
                         <Link
                             to="why"
                             smooth={true}
                             duration={500}
-                            className="text-base font-medium text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2">
-                            Pourquoi nous choisir?
+                            className="text-base font-medium text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 cursor-pointer">
+                            Why choose us?
                         </Link>
                         <Link
-                            to="testimonials"
+                            to="destinations"
                             smooth={true}
                             duration={500}
-                            className="text-base font-medium text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2">
-                            Citations
+                            className="text-base font-medium text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 cursor-pointer">
+                            Destinations
                         </Link>
                     </div>
 
                     <div className="lg:hidden">
                         <button
                             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                            className="text-white  ">
-                            <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                            </svg>
+                            className="text-white cursor-pointer">
+                            {isMobileMenuOpen ? (
+                                <IoIosClose className="w-12 h-12" />
+                            ) : (
+                                <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                                </svg>
+                            )}
                         </button>
                     </div>
 
@@ -54,7 +59,7 @@ const Navbar = () => {
                             to="contact"
                             smooth={true}
                             duration={500}
-                            className="px-5 py-2 cursor-pointer text-base font-bold leading-7 text-white transition-all duration-200 bg-[#156782] border border-transparent rounded-xl hover:bg-gray-600 font-pj  " role="button">
+                            className="px-5 py-2 cursor-pointer text-base font-bold leading-7 text-white transition-all duration-200 bg-[#ff9a23] border border-transparent rounded-xl hover:bg-gray-600 font-pj  " role="button">
                             Contact
                         </Link>
                     </div>
