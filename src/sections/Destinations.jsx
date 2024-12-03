@@ -37,7 +37,7 @@ const Destinations = () => {
                             <img src={Destination.image} alt={Destination.route} className="w-full h-48 object-cover rounded-lg mb-4" />
                             <h4 className="font-montserrat font-bold text-2xl text-[#156782] mb-2">{Destination.route}</h4>
                             <p className="font-roboto font-light text-[#156782] text-xl leading-7 mb-4">{Destination.price}€</p>
-                            <a href="#" target='blank' className="mt-auto flex items-center px-5 py-2 text-base font-bold leading-7 text-white transition-all duration-200 bg-[#ff9a23] border border-transparent rounded-xl hover:bg-gray-600 w-fit font-roboto" >
+                            <a href='https://api.whatsapp.com/send/?phone=%2B212638683227&text&type=phone_number&app_absent=0' target='blank' className="mt-auto flex items-center px-5 py-2 text-base font-bold leading-7 text-white transition-all duration-200 bg-[#ff9a23] border border-transparent rounded-xl hover:bg-gray-600 w-fit font-roboto" >
                                 Book
                                 <img src={whatsappLogo} alt="whatsapp logo" className="ml-3 w-8" />
 
