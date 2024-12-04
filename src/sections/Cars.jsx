@@ -2,7 +2,7 @@ import React from 'react'
 import kia from '../assets/kia.png'
 import mercedes from '../assets/mercedes.png'
 import skoda from '../assets/skoda.png'
-import Dacia from '../assets/Dacia.png'
+import Dacia from '../assets/dacia.png'
 import Autoplay from "embla-carousel-autoplay"
 import { Link } from 'react-scroll'
 import { HiArrowSmDown } from "react-icons/hi";
