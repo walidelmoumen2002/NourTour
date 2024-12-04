@@ -48,10 +48,10 @@ const Footer = () => {
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-start">
                         <h6 className='font-montserrat font-bold text-center text-2xl px-3 py-5   md:py-10 '>Social</h6>
                         <div className='flex mt-6 justify-center w-full '>
-                            <a href='https://www.instagram.com/nour.tour777/' className='mr-5' target='blank'>
+                            <a href='https://www.instagram.com/noureddine3557/' className='mr-5' target='blank'>
                                 <img src={instagram} alt="instagram" />
                             </a>
-                            <a href='https://www.facebook.com/profile.php?id=100064140874867' target='blank'>
+                            <a href='https://www.facebook.com/share/1BcSSiBRsP/' target='blank'>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
