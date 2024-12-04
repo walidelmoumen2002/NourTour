@@ -18,7 +18,8 @@ const Destinations = () => {
             console.error('Error fetching data:', error.message);
             return;
         }
-        setDestinations(data);
+        setDestinations(data.sort((a, b) => a.id - b.id));
+
         // console.log('Data:', data);
     };
 

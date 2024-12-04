@@ -7,7 +7,7 @@ const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return (
-        <header className="font-montserrat bg-[#156782]">
+        <header id="navbar" className="font-montserrat bg-[#156782]">
             <div className="container py-6 px-4 mx-auto sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between">
                     <div className="flex-shrink-0">

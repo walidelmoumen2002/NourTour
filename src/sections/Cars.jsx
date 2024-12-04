@@ -2,6 +2,7 @@ import React from 'react'
 import kia from '../assets/kia.png'
 import mercedes from '../assets/mercedes.png'
 import skoda from '../assets/skoda.png'
+import Dacia from '../assets/Dacia.png'
 import Autoplay from "embla-carousel-autoplay"
 import { Link } from 'react-scroll'
 import { HiArrowSmDown } from "react-icons/hi";
@@ -47,6 +48,7 @@ const Cars = () => {
             <CarouselItem><img src={kia} alt="kia" /></CarouselItem>
             <CarouselItem><img src={mercedes} alt="mercedes" /></CarouselItem>
             <CarouselItem><img src={skoda} alt="skoda" /></CarouselItem>
+            <CarouselItem><img src={Dacia} alt="Dacia" /></CarouselItem>
           </CarouselContent>
           {/* <CarouselPrevious className='hidden md:flex' />
           <CarouselNext className='hidden md:flex' /> */}
