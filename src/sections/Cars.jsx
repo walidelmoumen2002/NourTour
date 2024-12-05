@@ -3,6 +3,7 @@ import kia from '../assets/kia.png'
 import mercedes from '../assets/mercedes.png'
 import skoda from '../assets/skoda.png'
 import Dacia from '../assets/dacia.png'
+import ssangyong from '../assets/ssangyong.png'
 import Autoplay from "embla-carousel-autoplay"
 import { Link } from 'react-scroll'
 import { HiArrowSmDown } from "react-icons/hi";
@@ -21,7 +22,7 @@ const Cars = () => {
         <div className="w-full lg:w-1/2 p-10 container flex flex-col justify-center">
           <h3 className="font-montserrat font-bold text-5xl text-[#156782] mb-10">Our cars</h3>
           <p className="font-roboto font-light text-[#156782] text-xl leading-7 mb-4" >
-            Our main car is the Mercedes Vito, which can accommodate a group of 7 people. We also have secondary cars for 1 to 3 people like Skoda, Mercedes Classe, etc.
+            Our main car is the Mercedes Vito, which can accommodate a group of 7 people. We also have secondary cars for 1 to 4 people like Skoda, Mercedes Classe, etc.
           </p>
           <Link
             to="destinations"
@@ -49,6 +50,7 @@ const Cars = () => {
             <CarouselItem><img src={mercedes} alt="mercedes" /></CarouselItem>
             <CarouselItem><img src={skoda} alt="skoda" /></CarouselItem>
             <CarouselItem><img src={Dacia} alt="Dacia" /></CarouselItem>
+            <CarouselItem><img src={ssangyong} alt="ssangyong" /></CarouselItem>
           </CarouselContent>
           {/* <CarouselPrevious className='hidden md:flex' />
           <CarouselNext className='hidden md:flex' /> */}
