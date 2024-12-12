@@ -1,7 +1,7 @@
 import React from 'react'
-import exp from '../assets/exp.png'
-import volant from '../assets/volant.png'
-import option from '../assets/option.png'
+import exp from '../assets/exp.webp'
+import volant from '../assets/volant.webp'
+import option from '../assets/option.webp'
 
 const Why = () => {
     return (

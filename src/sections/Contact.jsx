@@ -2,8 +2,8 @@ import React from 'react'
 import instagram from '../assets/instagram.svg'
 import { FaPhoneVolume, FaMapMarkerAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import logo from '../assets/logonour.png'
-import contact from '../assets/contact.png'
+import logo from '../assets/logonour.webp'
+import contact from '../assets/contact.webp'
 import { Link } from "react-scroll";
 
 const Contact = () => {

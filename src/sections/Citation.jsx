@@ -1,5 +1,5 @@
 import React from 'react'
-import citation from '../assets/citation.png'
+import citation from '../assets/citation.webp'
 
 const Citation = () => {
     return (

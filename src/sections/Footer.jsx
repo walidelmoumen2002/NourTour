@@ -2,7 +2,7 @@ import React from 'react'
 import instagram from '../assets/instagram.svg'
 import envelope from '../assets/envelope.svg'
 import phone from '../assets/phone-2.svg'
-import logo from '../assets/logonour.png'
+import logo from '../assets/logonour.webp'
 import { Link } from "react-scroll";
 
 const Footer = () => {

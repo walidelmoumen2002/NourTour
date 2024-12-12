@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/logonour.png'
+import logo from '../assets/logonour.webp'
 import { Link } from "react-scroll";
 import { IoIosClose } from "react-icons/io";
 

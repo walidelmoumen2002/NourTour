@@ -1,5 +1,5 @@
 import React from 'react'
-import chauffeur from '../assets/chauffeur.png'
+import chauffeur from '../assets/chauffeur.webp'
 import whatsappLogo from '../assets/whatsappsvg.svg'
 
 const About = () => {

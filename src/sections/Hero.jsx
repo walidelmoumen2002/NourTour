@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import vito from '../assets/vito.png'
+import vito from '../assets/vito.webp'
 import { HiArrowSmDown } from "react-icons/hi";
 import { Link } from 'react-scroll'
 import Comments from './Comments'
