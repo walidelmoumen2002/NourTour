@@ -21,21 +21,21 @@ const Navbar = () => {
                             to="about"
                             smooth={true}
                             duration={500}
-                            className="text-base font-medium text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 cursor-pointer">
+                            className="text-base font-medium text-white transition-all duration-200 rounded focus:outline-none hover:text-[#ff9a23] focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 cursor-pointer">
                             About Us
                         </Link>
                         <Link
                             to="why"
                             smooth={true}
                             duration={500}
-                            className="text-base font-medium text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 cursor-pointer">
+                            className="text-base font-medium text-white transition-all duration-200 rounded focus:outline-none hover:text-[#ff9a23] focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 cursor-pointer">
                             Why choose us?
                         </Link>
                         <Link
                             to="destinations"
                             smooth={true}
                             duration={500}
-                            className="text-base font-medium text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 cursor-pointer">
+                            className="text-base font-medium text-white transition-all duration-200 rounded focus:outline-none hover:text-[#ff9a23] focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 cursor-pointer">
                             Destinations
                         </Link>
                     </div>
@@ -59,7 +59,7 @@ const Navbar = () => {
                             to="contact"
                             smooth={true}
                             duration={500}
-                            className="px-5 py-2 cursor-pointer text-base font-bold leading-7 text-white transition-all duration-200 bg-[#ff9a23] border border-transparent rounded-xl hover:bg-gray-600 font-pj  " role="button">
+                            className="px-5 py-2 cursor-pointer text-base font-bold leading-7 text-white transition-all duration-200 bg-[#ff9a23] border border-transparent rounded-xl hover:bg-gray-600 hover:text-[#ff9a23]" role="button">
                             Contact
                         </Link>
                     </div>

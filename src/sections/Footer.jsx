@@ -20,28 +20,28 @@ const Footer = () => {
                             to="about"
                             smooth={true}
                             duration={500}
-                            className="block px-3 py-2 text-base font-medium  rounded-md  ">
+                            className="block px-3 py-2 text-base font-medium rounded-md cursor-pointer hover:text-[#ff9a23] transition-all duration-200">
                             About Us
                         </Link>
                         <Link
                             to="why"
                             smooth={true}
                             duration={500}
-                            className="block px-3 py-2 text-base font-medium  rounded-md  ">
+                            className="block px-3 py-2 text-base font-medium rounded-md cursor-pointer hover:text-[#ff9a23] transition-all duration-200">
                             Why choose us?
                         </Link>
                         <Link
                             to="destinations"
                             smooth={true}
                             duration={500}
-                            className="block px-3 py-2 text-base font-medium rounded-md  ">
+                            className="block px-3 py-2 text-base font-medium rounded-md cursor-pointer hover:text-[#ff9a23] transition-all duration-200">
                             Destinations
                         </Link>
                         <Link
                             to="contact"
                             smooth={true}
                             duration={500}
-                            className="block px-3 py-2 text-base font-medium  rounded-md  ">
+                            className="block px-3 py-2 text-base font-medium rounded-md cursor-pointer hover:text-[#ff9a23] transition-all duration-200">
                             Contact
                         </Link>
                     </div>
@@ -65,12 +65,12 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div >
             </div >
             <aside className='border-t-2 text-sm md:text-base w-full py-4 text-white'>
                 <p>Copyright © {new Date().getFullYear()} - All right reserved by Nour Tour</p>
             </aside>
-        </footer>
+        </footer >
     )
 }
 
